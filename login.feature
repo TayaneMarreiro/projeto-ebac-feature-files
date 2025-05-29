@@ -10,7 +10,7 @@ Funcionalidade: Login na Plataforma
   Esquema do Cenário: Tentativas de login com diferentes entradas
     Dado que o cliente está na página de login
     Quando ele insere o <usuario> e a <senha>
-    Então o sistema deve <resultado>
+    Então o sistema deve exibir <resultado>
 
     Exemplos:
       | usuário               | senha         | resultado                                                  |
