@@ -18,7 +18,7 @@ Funcionalidade: Cadastro no Checkout
 
   Esquema do Cenário: Cadastro com campos específicos vazios
     Dado que o cliente está preenchendo o formulário de cadastro
-    Quando ele deixa o campo <campo> vazio
+    Quando ele deixa o <campo> vazio
     Então o sistema deve exibir uma mensagem de alerta informando que o campo é obrigatório
 
     Exemplos:
